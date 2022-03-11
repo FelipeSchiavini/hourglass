@@ -1,0 +1,14 @@
+{
+  "name": "houglass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node hourglass.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
