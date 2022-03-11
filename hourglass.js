@@ -47,7 +47,7 @@ while(opt>=1){
     if(opt === 1){
         let n = Number(readLineSync.question(
         `Digite o tamanho da ampulheta : (n>=20):`,{hideEchoBack:false}))
-        if (n >= 20 ) printHourglass(n, true)
+        if (n >= 20 ) printHourglass(n)
         if (n< 20) printError()
     } else if(opt ===2){
         let n = Number(readLineSync.question(
